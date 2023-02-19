@@ -3,6 +3,8 @@
  */
 export enum Language {
     ENGLISH = 'en',
+    HINDI ='hi',
+    ODIA ='or',
     KOREAN = 'ko',
     RUSSIAN = 'ru',
     GERMAN = 'de',
