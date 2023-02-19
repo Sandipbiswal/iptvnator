@@ -17,7 +17,7 @@ import {
 import { DataService } from './services/data.service';
 import { EpgService } from './services/epg.service';
 import { SettingsService } from './services/settings.service';
-import { WhatsNewService } from './services/whats-new.service';
+
 import { Language } from './settings/language.enum';
 import { Settings } from './settings/settings.interface';
 import { Theme } from './settings/theme.enum';
