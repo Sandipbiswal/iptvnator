@@ -85,29 +85,16 @@ export class AppMenu {
         return new MenuItem({
             label: 'Help',
             submenu: [
+       
                 {
-                    label: 'What is new',
-                    click: () => {
-                        if (!this.window.isDestroyed())
-                            this.window.webContents.send(SHOW_WHATS_NEW);
-                    },
-                },
-                {
-                    label: 'Report a bug',
+                    label: 'Join Telegram',
                     click: () => {
                         shell.openExternal(
-                            'https://github.com/4gray/iptvnator'
+                            'https://telegram.me/IND_TV'
                         );
                     },
                 },
-                {
-                    label: 'Buy me a coffee',
-                    click: () => {
-                        shell.openExternal(
-                            'https://www.buymeacoffee.com/4gray'
-                        );
-                    },
-                },
+                
                 {
                     label: 'Open DevTools',
                     click: () => {
@@ -126,7 +113,7 @@ export class AppMenu {
                                 __dirname,
                                 '../dist/assets/icons/icon.png'
                             ),
-                            copyright: 'Copyright (c) 2020-2022 4gray',
+                            copyright: 'Copyright (c) 2022-2023 IND TV',
                             package_json_dir: path.join(__dirname, '../'),
                         }),
                 },
