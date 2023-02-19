@@ -1,4 +1,4 @@
-/* eslint-disable no-useless-catch */
+/*  eslint-disable no-useless-catch */
 import { app, BrowserWindow, globalShortcut, Menu } from 'electron';
 import * as path from 'path';
 import * as url from 'url';
