@@ -1,7 +1,7 @@
 {
-  "name": "IPTVnator",
-  "description": "IPTVnator is a tool to watch and manage your IPTV playlists.",
-  "short_name": "IPTVnator",
+  "name": "IND TV IP-PLAYER",
+  "description": "IND TV IP-PLAYER is a tool to watch and manage your IPTV playlists.",
+  "short_name": "IND TV IP-PLAYER",
   "theme_color": "#000",
   "background_color": "#010304",
   "display": "standalone",
