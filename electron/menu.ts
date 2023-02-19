@@ -95,28 +95,7 @@ export class AppMenu {
                     },
                 },
                 
-                {
-                    label: 'Open DevTools',
-                    click: () => {
-                        if (!this.window.isDestroyed())
-                            this.window.webContents.openDevTools();
-                    },
-                },
-                {
-                    type: 'separator',
-                },
-                {
-                    label: 'About',
-                    click: () =>
-                        openAboutWindow({
-                            icon_path: path.join(
-                                __dirname,
-                                '../dist/assets/icons/icon.png'
-                            ),
-                            copyright: 'Copyright (c) 2022-2023 IND TV',
-                            package_json_dir: path.join(__dirname, '../'),
-                        }),
-                },
+                
             ],
         });
     }
