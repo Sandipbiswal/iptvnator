@@ -2,10 +2,10 @@
     "name": "IND TV",
     "version": "0.11.1",
     "description": "IPTV player application.",
-    "homepage": "https://github.com/4gray/iptvnator",
+    "homepage": "https://github.com/Sandipbiswal/iptvnator/",
     "author": {
-        "name": "4gray",
-        "email": "dev@artslab.info"
+        "name": "IND TV",
+        "email": "null@null.null"
     },
     "keywords": [
         "angular",
